@@ -49,8 +49,8 @@
                 <div class="card-group" id="cartas.descuento">
                     <div class="card border-success mb-3" style="max-width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">ESTUDIANTES</h5>
-                            <p class="card-text">Tienen un descuento de</p>
+                            <h5 class="card-title" style="text-align:center">ESTUDIANTES</h5>
+                            <p class="card-text" style="text-align:center">Tienen un descuento de</p>
                             <h4 class="card-title">80%</h4>
                             <p class="card-text">*presentar documentacion que lo acredite</p>
                         </div>
@@ -58,8 +58,8 @@
                 
                     <div class="card border-primary mb-3 border-start" style="max-width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">TRAINEE</h5>
-                            <p class="card-text">Tienen un descuento de</p>
+                            <h5 class="card-title" style="text-align:center">TRAINEE</h5>
+                            <p class="card-text" style="text-align:center">Tienen un descuento de</p>
                             <h4 class="card-title">50%</h4>
                             <p class="card-text">*presentar documentacion que lo acredite</p>
                         </div>
@@ -67,8 +67,8 @@
 
                     <div class="card border-secondary mb-3 border-start" style="max-width: 18rem;">
                         <div class="card-body">
-                            <h5 class="card-title">JUNIOR</h5>
-                            <p class="card-text">Tienen un descuento de</p>
+                            <h5 class="card-title" style="text-align:center">JUNIOR</h5>
+                            <p class="card-text" style="text-align:center">Tienen un descuento de</p>
                             <h4 class="card-title">15%</h4>
                             <p class="card-text">*presentar documentacion que lo acredite</p>
                         </div>
@@ -85,9 +85,9 @@
             <p style="text-align:center">VENTA</p>
             <h3 style="text-align:center">VALOR DEL TICKET $200</h3>
             <br>
-            <div class="container" id="compra.container">
+            <div class="container">
                 
-                <form><!--FORMULARIO COMPRA-->
+                <form id="compra"><!--FORMULARIO COMPRA-->
                                         
                     <div class="row g-2">
                         <div class="form-floating  col-5">
@@ -107,7 +107,7 @@
                         <br>
                         <br>
 
-                        <div class="mb-4 col-5" >
+                        <div class="mb-4 col-5" id="cantCompra" >
                             <label for="cantidad" class="form-label">Cantidad</label>
                             <input type="number" class="form-control" id="cantidad" placeholder="Cantidad">
                         </div>
@@ -127,9 +127,10 @@
                                 <input type="number" readonly class="form-control col-7" id="total" >
                             </div>
                         </div>
-                        <div class="row row-cols-2 g-3 col-10"><!--BOTONES DEL FORMULARIO DE COMPRA-->
+                        
+                        <div class="row row-cols-2 g-3 col-md-10 mx-0"><!--BOTONES DEL FORMULARIO DE COMPRA-->
                             <input type="button" value="Resumen" onclick="calcular()" class="btn btn-primary" id="btnfc"></input>
-                            <button type="reset" value="Reset" class="btn btn-primary " id="btn2fc">Borrar</button> 
+                            <button type="reset" value="Reset" class="btn btn-primary " id="btn2fc" >Borrar</button> 
                         </div>   
                       
 

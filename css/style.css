@@ -90,7 +90,7 @@ margin:0 40px ;
 
 /*FORMATO DE LA PAGINA DE COMPRA*/
 
-.container>form
+#compra
 {
     margin-left: 170px;
     
@@ -101,12 +101,10 @@ margin:0 40px ;
     margin-top: 50px;
 }
 
-
-.card-title,.card-title~.card-text
+#btncompra /*para mantener el boton alineado*/
 {
-    text-align: center;
+    margin: auto;
 }
-
 
 
 .input-group-lg>span,.input-group-lg>input
@@ -119,7 +117,6 @@ margin:0 40px ;
 
 #btnfc,#btn2fc
 {
-    background-color: rgb(112, 192, 32);
-    border-color: transparent;
-       
+    background-color: rgb(105, 202, 7);
+    border-color: transparent;   
 }
