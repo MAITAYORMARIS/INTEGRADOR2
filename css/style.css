@@ -1,0 +1,125 @@
+
+
+
+
+.navbar
+{
+    background-color: orangered;
+       
+}
+
+.navbar-brand
+{
+    margin-left: 80px;
+}
+
+.navbar-nav
+{
+    margin-right: 80px;
+}
+
+.carousel-caption
+{
+   display:flex;
+   width: 500px;
+    margin-inline: 40% ;
+    margin-bottom: 190px;
+    font-size: medium ;
+}
+
+
+h4
+{
+text-align: center;
+}
+
+.card-group
+{
+width: auto;
+margin-left: 90px;
+margin-right: 90px;
+text-align: justify;
+}
+
+.card-group>.card
+{
+margin:0 40px ;
+
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin:auto;
+}
+
+.col-12
+{
+    text-align: start;
+}
+
+#btnform
+{
+    background-color: rgb(112, 192, 32);
+    border-color: transparent;
+    margin-top: auto;
+}
+
+
+.nav
+{
+ margin-top: 30px;
+
+    background-color: orangered;
+    padding:1em;
+
+}
+
+.btn
+{
+    margin-top: 30px;
+}
+
+.carousel-item>.img-fluid
+{
+    filter: brightness(50%);
+}
+
+/*FORMATO DE LA PAGINA DE COMPRA*/
+
+.container>form
+{
+    margin-left: 170px;
+    
+}
+
+.container>.card-group
+{
+    margin-top: 50px;
+}
+
+
+.card-title,.card-title~.card-text
+{
+    text-align: center;
+}
+
+
+
+.input-group-lg>span,.input-group-lg>input
+{
+    background-color:rgb(153, 218, 201);
+    color:
+}
+
+
+
+#btnfc,#btn2fc
+{
+    background-color: rgb(112, 192, 32);
+    border-color: transparent;
+       
+}
